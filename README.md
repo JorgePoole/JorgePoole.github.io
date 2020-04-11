@@ -1,2 +1,2 @@
-# JorgePoole.github.io
+# jorgepoole.github.io
 Personal website
