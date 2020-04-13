@@ -42,7 +42,7 @@
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -50,18 +50,19 @@
   </nav>
 
   <!-- About Section -->
-  <section id="about" class="projects-section bg-light">
+  <section id="about" class="projects-section bg-light" style="padding-top: 10rem; padding-bottom: 10rem;">
     <div class="container">
 
       <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-4 col-lg-3">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/profile.png" alt="">
+      <div class="row align-items-center justify-content-center no-gutters mb-5 mb-lg-5">
+        <div class="col-xl-3 col-lg-3" style="text-align: center;">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/profile.png" alt="" style="
+          max-width: 65%;">
         </div>
-        <div class="col-xl-4 col-lg-7">
+        <div class="col-xl-7 col-lg-7">
           <div class="featured-text text-center text-lg-left">
             <h4>About</h4>
-            <p class="text-black-50 mb-0">Welcome to my website. I'm Jorge, a data scientist at Coller Capital. I'm interested in quantitative finance, machine learning, data visualization and probablistic programming. You can find a selection of my personal projects below. </p>
+            <p class="text-black-50 mb-0">Welcome to my website. I'm Jorge, a data scientist at <a href="https://www.collercapital.com/">Coller Capital</a>. I'm interested in quantitative finance, machine learning, data visualization and probablistic programming. You can find a selection of my personal projects below. </p>
           </div>
         </div>
       </div>
@@ -72,7 +73,8 @@
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
     <div class="container">
-
+      <!-- <h3 class="text-center text-black-50">Projects <div class="fa fa-box-open"></h3>
+      <br> -->
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
@@ -82,8 +84,8 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <h4 class="text-white">Coming Soon</h4>
+                <p class="mb-0 text-white-50">Work in progress.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -92,7 +94,7 @@
       </div>
 
       <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
+      <!-- <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
         </div>
@@ -107,17 +109,17 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </section>
 
 
   <!-- Contact Section -->
-  <section class="contact-section bg-black">
+  <section id="contact" class="contact-section bg-black">
     <div class="container">
 
-      <div class="row">
+      <div class="row justify-content-center">
 
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
@@ -126,23 +128,37 @@
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-                <a href="#">jorgepoole@gmail.com</a>
+                <a href="mailto:jorgepoole@gmail.com">jorgepoole@gmail.com</a>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-dochub text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Curriculum Vitae</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="doc/jorge_poole_CV.pdf">PDF</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="row">
+      <div class="row justify-content-center">
 
-        <div class="social d-flex justify-content-center">
-          <a href="#" class="mx-2">
+        <div class="social d-flex">
+          <a href="https://www.linkedin.com/in/jorge-poole/" class="mx-2">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="#" class="mx-2">
+          <a href="https://medium.com/@jorgepoole" class="mx-2">
             <i class="fab fa-medium"></i>
           </a>
-          <a href="#" class="mx-2">
+          <a href="https://github.com/JorgePoole" class="mx-2">
             <i class="fab fa-github"></i>
           </a>
         </div>

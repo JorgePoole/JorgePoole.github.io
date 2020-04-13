@@ -3042,6 +3042,7 @@ html {
   .mb-lg-0,
   .my-lg-0 {
     margin-bottom: 0 !important;
+    max-width: 60%;
   }
   .ml-lg-0,
   .mx-lg-0 {
